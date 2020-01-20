@@ -1,0 +1,14 @@
+main {
+    text-align: center;
+}
+
+.music-gallery {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
+}
+
+.gallery-img {
+    width: 90%;
+}
