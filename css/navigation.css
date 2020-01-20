@@ -1,0 +1,32 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a {
+    padding: 0 1.8em;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: var(--primary-txt-color);
+}
+
+nav a:active,
+nav a:focus {
+    color: var(--secondary-txt-color);
+}
+
+nav a:hover {
+    color: var(--secondary-txt-color);
+    transition: 0.2s;
+    font-weight: 600;
+}
