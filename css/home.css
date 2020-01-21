@@ -24,7 +24,8 @@ h1 {
     width: 12em;
 }
 
-.box:hover {
+.box:hover,
+.home-direct:hover {
     animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;
     -webkit-animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;
     -moz-animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;

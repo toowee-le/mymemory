@@ -1,3 +1,13 @@
+.home-btn {
+    position: absolute;
+    top: 15px;
+    left: -20px;
+}
+
+.home-btn img {
+    width: 100px;
+}
+
 nav {
     position: fixed;
     top: 0;
