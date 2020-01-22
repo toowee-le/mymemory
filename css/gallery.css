@@ -48,6 +48,7 @@ main {
 .content-subtitle {
     font-size: .8rem;
     font-weight: 300;
+    letter-spacing: 1px;
 }
 
 hr {
