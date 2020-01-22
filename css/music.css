@@ -2,15 +2,44 @@ main {
     text-align: center;
 }
 
-.music-gallery {
-    margin-top: 100px;
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .5em;
+    margin-top: 100px;
 }
 
 .gallery-img {
-    width: 90%;
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+.gallery-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .6);
+
+    /* position the overlay text centrally */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    /* typography */
+    /*hide the text by default */
+    opacity: 0;
+    transition: opacity .5s;
+    color: #fff;
+}
+
+.gallery-item:hover .gallery-text {
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
