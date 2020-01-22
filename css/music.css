@@ -60,13 +60,13 @@ hr {
 }
 
 @media (max-width: 768px) {
-    .music-gallery {
+    .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 500px) {
-    .music-gallery {
+    .grid-container {
         grid-template-columns: 1fr;
     }
 }
