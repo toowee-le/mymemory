@@ -41,3 +41,18 @@ nav a:hover {
     transition: 0.2s;
     font-weight: 600;
 }
+
+@media (max-width: 500px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-btn {
+        top: 30px;
+    }
+
+    .home-btn img {
+        width: 80px;
+    }
+}
