@@ -1,6 +1,6 @@
 # My Memory
 
-A personal project to display photos of all events and travel tickets I've hoarded over the years as a way to practice responsive design, CSS and SVG animation.
+A personal project to display photos of events and travel tickets/souvenirs I've hoarded over the years as a way to practice CSS, SVG animaton and creating a responsive design.
 
 The live website is [here](https://toowee-le.github.io/mymemory/).
 
