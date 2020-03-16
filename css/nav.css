@@ -50,6 +50,15 @@ nav img {
     margin: 5px;
 }
 
+/* Page title */
+.page-title {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2em;
+    display: none;
+}
+
 /* Tablet devices */
 @media screen and (max-width: 768px) {
     body {
@@ -81,6 +90,10 @@ nav img {
     .nav-active {
         /* Reposition the side nav bar to the page on click */
         transform: translateX(0%);
+    }
+    
+    .page-title {
+        display: block;
     }
 }
 
