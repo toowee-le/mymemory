@@ -18,8 +18,8 @@
     nav ul {
         position: absolute;
         right: 0px;
-        top: 10vh;
-        height: 90vh;
+        top: 15vh;
+        height: 85vh;
         width: 100%;
         display: flex;
         flex-direction: column;
