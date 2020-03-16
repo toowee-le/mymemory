@@ -6,6 +6,8 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .5em;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .gallery-img {
