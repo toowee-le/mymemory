@@ -38,3 +38,14 @@ nav a:hover {
 nav img {
     width: 100px;
 }
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: #262626;
+    margin: 5px;
+}
