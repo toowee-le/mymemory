@@ -59,9 +59,9 @@ nav img {
     nav ul {
         position: absolute;
         right: 0px;
-        top: 8vh;
-        height: 92vh;
-        width: 50%;
+        top: 10vh;
+        height: 90vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
