@@ -87,3 +87,17 @@ nav img {
         transform: translateX(0%);
     }
 }
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+    transition: transform .3s ease-in;
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+    transition: transform .3s ease-in;
+}
