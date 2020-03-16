@@ -1,13 +1,14 @@
 #index-nav{
     justify-content: center;
 }
-    nav {
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
     background: #fff;
-    padding: 10px 20px
+    padding: 30px 20px
 }
 
 nav ul {
