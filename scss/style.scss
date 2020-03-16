@@ -1,0 +1,151 @@
+@import 'config';
+@import 'grids';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    color: $base-color;
+    font-family: $font-stack;
+}
+
+/* Typography */
+.page-title {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.5em;
+    display: none;
+}
+
+/* Home Page */
+.home-title-section {
+    margin-top: 80px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+    .site-titles {
+        margin: auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: $main-header-size;
+        letter-spacing: 3px;
+    }
+
+    .subtitle {
+        font-family: $font-stack;
+        font-weight: $thin-text;
+    }
+
+    .box {
+        width: 12em;
+    }
+
+    .box:hover,
+    .home-direct:hover {
+    animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;
+    -webkit-animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;
+    -moz-animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;
+    }
+
+    @keyframes shakeBox {
+        0% {
+         transform: translate3d(0, 0, 0);
+        }
+     
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+        }
+     
+        20%, 80% {
+            transform: translate3d(2px, 0, 0);
+        }
+     
+        30%, 50%, 70% {
+            transform: translate3d(-5px, 0, 0);
+        }
+     
+        40%, 60% {
+            transform: translate3d(5px, 0, 0);
+        }
+    }
+}
+
+/* Nav */
+#index-nav{
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    background: $nav-bg-color;
+    padding: 30px 20px;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 35%;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: $base-color;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+    }
+
+    a:active,
+    a:focus {
+        color: $secondary-color;
+    }
+
+    a:hover {
+        color: $secondary-color;
+        transition: .2s;
+    }
+
+    img {
+        width: 100px;
+    }
+}
+
+/* Page title */
+.page-title {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.5em;
+    display: none;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0 15px 0;
+    text-align: center;
+    font-size: 0.8rem;
+
+    i {
+        color: $base-color;
+        text-decoration: none;
+        padding: 2px .18em 0;
+    }
+
+    i:hover {
+        color: $secondary-color;
+        transition: 0.2s;
+    }
+}
