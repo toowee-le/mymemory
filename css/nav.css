@@ -52,6 +52,10 @@ nav img {
 
 /* Tablet devices */
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    
     nav ul {
         position: absolute;
         right: 0px;
