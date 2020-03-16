@@ -146,7 +146,7 @@ nav li {
 nav a {
   color: #262626;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-decoration: none;
 }
 
@@ -168,6 +168,7 @@ nav img {
 /* Page title */
 .page-title {
   font-size: 1rem;
+  letter-spacing: 2px;
   font-weight: 500;
   text-align: center;
   margin-bottom: 2.5em;
