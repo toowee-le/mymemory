@@ -68,8 +68,8 @@ nav img {
     nav ul {
         position: absolute;
         right: 0px;
-        top: 10vh;
-        height: 90vh;
+        top: 8vh;
+        height: 92vh;
         width: 100%;
         display: flex;
         flex-direction: column;
