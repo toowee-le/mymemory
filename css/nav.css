@@ -1,4 +1,7 @@
-nav {
+#index-nav{
+    justify-content: center;
+}
+    nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,6 +88,8 @@ nav img {
     .burger {
         display: block;
         cursor: pointer;
+        position: absolute;
+        right: 5%;
     }
 
     .nav-active {
