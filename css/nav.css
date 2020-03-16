@@ -66,4 +66,9 @@ nav img {
         transition: transform 0.5s ease-in;
         background: #fff;
     }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
 }
