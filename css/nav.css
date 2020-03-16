@@ -49,3 +49,21 @@ nav img {
     background-color: #262626;
     margin: 5px;
 }
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    ul {
+        position: absolute;
+        right: 0px;
+        top: 8vh;
+        height: 92vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 50000;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        background: #fff;
+    }
+}
