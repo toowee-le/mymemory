@@ -95,6 +95,10 @@ nav img {
     .page-title {
         display: block;
     }
+
+    nav img {
+        display: none;
+    }
 }
 
 .toggle .line1 {
