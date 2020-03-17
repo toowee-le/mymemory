@@ -103,7 +103,7 @@ nav {
 
     a:hover {
         color: $secondary-color;
-        transition: .2s;
+        @include transition(color .3s ease);
     }
 
     img {
