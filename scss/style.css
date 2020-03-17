@@ -155,6 +155,11 @@ nav img {
 }
 
 /* Grid pages */
+.home-direct:hover {
+  -webkit-animation: shakeBox 1.5s both;
+  animation: shakeBox 1.5s both;
+}
+
 .page-title {
   font-size: 1rem;
   letter-spacing: 2px;
