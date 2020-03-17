@@ -102,6 +102,9 @@ body {
 
 /* Nav */
 #index-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -148,9 +151,10 @@ nav a {
   text-decoration: none;
 }
 
-nav a:active,
-nav a:focus {
+nav .active {
   color: #95bdbc;
+  border-bottom: 1px solid #95bdbc;
+  padding-bottom: 3px;
 }
 
 nav a:hover {

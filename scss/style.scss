@@ -96,9 +96,10 @@ nav {
         text-decoration: none;
     }
 
-    a:active,
-    a:focus {
+    .active {
         color: $secondary-color;
+        border-bottom: 1px solid $secondary-color;
+        padding-bottom: 3px; 
     }
 
     a:hover {
