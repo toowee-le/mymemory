@@ -25,8 +25,6 @@ body {
 
 /* Home Page */
 .home-title-section {
-  margin-top: 80px;
-  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,6 +32,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 80px;
+  height: 90vh;
 }
 
 .home-title-section .site-titles {
@@ -53,13 +53,6 @@ body {
 
 .home-title-section .box {
   width: 12em;
-}
-
-.home-title-section .box:hover,
-.home-title-section .home-direct:hover {
-  animation: shakeBox 1.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  -webkit-animation: shakeBox 1.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  -moz-animation: shakeBox 1.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 
 @-webkit-keyframes shakeBox {
@@ -106,6 +99,11 @@ body {
     -webkit-transform: translate3d(5px, 0, 0);
             transform: translate3d(5px, 0, 0);
   }
+}
+
+.home-title-section .box:hover {
+  -webkit-animation: shakeBox 1.5s both;
+  animation: shakeBox 1.5s both;
 }
 
 /* Nav */

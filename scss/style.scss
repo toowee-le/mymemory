@@ -1,4 +1,5 @@
 @import 'config';
+@import 'mixin';
 
 * {
     box-sizing: border-box;
@@ -23,10 +24,10 @@ body {
 
 /* Home Page */
 .home-title-section {
+    @include flex;
+    flex-direction: column;
     margin-top: 80px;
     height: 90vh;
-    display: flex;
-    flex-direction: column;
 
     .site-titles {
         margin: auto;
@@ -47,14 +48,7 @@ body {
         width: 12em;
     }
 
-    .box:hover,
-    .home-direct:hover {
-    animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;
-    -webkit-animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;
-    -moz-animation: shakeBox 1.5s cubic-bezier(.36, .07, .19, .97) both;
-    }
-
-    @keyframes shakeBox {
+    @include keyframes(shakeBox) {
         0% {
          transform: translate3d(0, 0, 0);
         }
@@ -75,6 +69,10 @@ body {
             transform: translate3d(5px, 0, 0);
         }
     }
+
+    .box:hover {
+        @include animation('shakeBox 1.5s both')
+    }
 }
 
 /* Nav */
@@ -83,7 +81,7 @@ body {
 }
 
 nav {
-    display: flex;
+    @include flex;
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
@@ -91,7 +89,7 @@ nav {
     padding: 20px 20px;
 
     ul {
-        display: flex;
+        @include flex;
         justify-content: space-around;
         width: 35%;
     }
