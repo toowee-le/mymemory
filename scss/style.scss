@@ -68,7 +68,7 @@ body {
 
 /* Nav */
 #index-nav{
-    justify-content: center;
+    @include flex;
 }
 
 nav {
